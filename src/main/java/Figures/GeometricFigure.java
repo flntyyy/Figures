@@ -22,9 +22,9 @@ public abstract class GeometricFigure {
     public int side3;
     public int side4;
 
-    public GeometricFigure (int radius) {
-        this.radius = radius;
-    }
+    //public GeometricFigure (int radius) {
+    //    this.radius = radius;
+    //}
 
     public GeometricFigure (int side1) {
         this.side1 = side1;
