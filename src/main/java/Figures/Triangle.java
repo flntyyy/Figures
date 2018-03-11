@@ -11,7 +11,6 @@ public class Triangle extends GeometricFigure {
         }
 
         public void area(){
-
-
+            System.out.println("Надо подумать");
         }
     }

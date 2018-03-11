@@ -2,17 +2,17 @@ package Figures;
 
 public class Circle extends GeometricFigure {
 
-    public Circle (int radius) {
-        super(radius);
+    public Circle (int side1) {
+        super(side1);
     }
 
     public void perimeter() {
-        int per  = (side1 + side2) * 2;
-        System.out.println("Периметр прямоугольника " + per);
+
+        System.out.println("Периметр круга " + side1);
     }
 
     public void area () {
-        int area = side1 * side2;
+        double area = (side1 * side1) * 3.14;
         System.out.println("Площадь прямоугольника " + area);
 
     }
